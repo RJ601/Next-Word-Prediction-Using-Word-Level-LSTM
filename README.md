@@ -2,9 +2,9 @@
 Developing an AI model to predict next words of a text - Trained Tensorflow's Sequential model on Shakespearean text.
 
 # Features - Images here
-Uses an LSTM model trained on Shakesperian text
+Uses an LSTM model trained on Shakesperian text (Shakespeare_data.csv)
 Uses word-level tokenization for deeper semantic understanding.
-Includes recording model efficiency over different number and type of lstm layers
+Includes records of model efficiency over different number and type of lstm layers in the Model_Comparisions.csv
 Includes loss graphs
 Saves the most efficient model for later use
 demo: predicts next word in a sentence
@@ -14,17 +14,23 @@ old english
 at least first 13 words of the sentence should be priovided as prompt
 
 # Installation and Setup
-1. Clone the repository
-git clone https://github.com/RJ601/Next-Word-Prediction-Using-Word-Level-LSTM-on-Shakespearean-Text.git
-cd Next-Word-Prediction-Using-Word-Level-LSTM-on-Shakespearean-Text
+1. Clone the repository:
+   git clone https://github.com/RJ601/Next-Word-Prediction-Using-Word-Level-LSTM-on-Shakespearean-Text.git
+   cd Next-Word-Prediction-Using-Word-Level-LSTM-on-Shakespearean-Text
+2. Install Dependencies:
+   pip install -r requirements.txt
 
 # Usage
 To test the model on custom input:
-python demo.py
+open and run demo.ipynb file
+
+To train model from scratch:
+open, modify (optional) and run the training.ipynb file
 
 image
 
 # Tools, Libraries and Dataset used
+Platform: Jupyter Notebook
 Language: Python 3.9.23
 
 Libraries:
