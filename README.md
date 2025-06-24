@@ -10,8 +10,8 @@ An AI model that predicts the **next word** in a sentence using a word-level LST
 * 🤖 **LSTM-based Sequential model** trained on rich Shakespearean language.
 * 📊 **Model comparison** across different LSTM layers and architectures in `Model_Comparisons.csv`.
 * 📉 **Loss graphs** included for visualizing training performance.
-* 📆 **Saved the most efficient model** as "model.keras" for reuse.
-* 🧪 **Demo notebook** that predicts the next word based on custom input.
+* 💾 Manual selection and saving of the most efficient model based on results as "model.keras".
+* 🧪 **Demo notebook** that loads the model that predicts the next word based on custom input.
 
 ⚠️ **Restrictions**:
 
