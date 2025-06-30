@@ -7,16 +7,14 @@ An AI model that predicts the **next word** in a sentence using a word-level LST
 # ✨ Features
 
 * 🔠 **Word-level tokenization** for deeper semantic understanding.
-* 🤖 **LSTM-based Sequential model** trained on rich Shakespearean language.
+* 🤖 **LSTM-based Sequential model** trained on Harry Potter and Percy Jackson books.
 * 📊 **Model comparison** across different LSTM layers and architectures in `Model_Comparisons.csv`.
 * 📉 **Loss graphs** included for visualizing training performance.
 * 💾 Manual selection and saving of the most efficient model based on results as "model.keras".
-* 🧪 **Demo notebook** that loads the model that predicts the next word based on custom input.
 
 ⚠️ **Restrictions**:
 
-* Works best with **Old English** or Shakespearean-style input.
-* Requires **at least 13 words** in the input sentence for accurate prediction.
+* Requires **at least 7 words** in the input sentence for prediction.
 
 > *(Images and visualizations will be added soon)*
 
@@ -27,8 +25,8 @@ An AI model that predicts the **next word** in a sentence using a word-level LST
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/RJ601/Next-Word-Prediction-Using-Word-Level-LSTM-on-Shakespearean-Text.git
-cd Next-Word-Prediction-Using-Word-Level-LSTM-on-Shakespearean-Text
+git clone https://github.com/RJ601/Next-Word-Prediction-Using-Word-Level-LSTM.git
+cd Next-Word-Prediction-Using-Word-Level-LSTM
 ```
 
 2. **Install dependencies**:
@@ -41,13 +39,12 @@ pip install -r requirements.txt
 
 # 🚀 Usage
 
-To **run predictions on custom input**:
-👉 Open and run the `demo.ipynb` Jupyter notebook.
+Load the model:
+from tensorflow.keras.models import load_model
+model = load_model("model.keras")
 
 To **train the model from scratch**:
-👉 Open `training.ipynb`, optionally modify the hyperparameters, and run all cells.
-
-*(Sample output screenshot will be added here)*
+👉 Open `LSTM_Model_Training.ipynb`, optionally modify the hyperparameters, and run all cells.
 
 ---
 
@@ -65,8 +62,6 @@ To **train the model from scratch**:
 * `numpy==2.0.2`
 * `pandas==2.3.0`
 * `nltk==3.9.1`
-
-**Dataset**: [Shakespeare Plays Dataset (Kaggle)](https://www.kaggle.com/datasets)
 
 ---
 
