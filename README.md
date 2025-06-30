@@ -7,9 +7,16 @@ An AI model that predicts the **next word** in a sentence using a word-level LST
 # ✨ Features
 
 * 🔠 **Word-level tokenization** for deeper semantic understanding.
+  ![image](https://github.com/user-attachments/assets/31224c58-d7b2-4917-8f65-91e6ed400676)
+
 * 🤖 **LSTM-based Sequential model** trained on Harry Potter and Percy Jackson books.
+  ![image](https://github.com/user-attachments/assets/71a9ef98-2df3-4e87-bf41-b378e4648a34)
+
 * 📊 **Model comparison** across different LSTM layers and architectures in `Model_Comparisons.csv`.
+  
 * 📉 **Loss graphs** included for visualizing training performance.
+  ![image](https://github.com/user-attachments/assets/1e218046-db1d-49f0-afda-acdeda50d580)
+
 * 💾 Manual selection and saving of the most efficient model based on results as "model.keras".
 
 ⚠️ **Restrictions**:
