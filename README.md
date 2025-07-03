@@ -1,6 +1,6 @@
-# 📜 Next-Word Prediction Using Word-Level LSTM on Shakespearean Text
+# 📜 Next-Word Prediction Using Word-Level LSTM
 
-An AI model that predicts the **next word** in a sentence using a word-level LSTM, trained on Shakespearean plays.
+An AI model that predicts the **next word** in a sentence using a word-level LSTM.
 
 ---
 
