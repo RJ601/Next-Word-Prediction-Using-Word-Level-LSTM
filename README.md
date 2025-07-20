@@ -46,12 +46,7 @@ pip install -r requirements.txt
 
 # 🚀 Usage
 
-To **train the model**:
 👉 Open `LSTM_Model_Training.ipynb`, optionally modify the hyperparameters, and run all cells.
-
-In a different file, load the model:
-from tensorflow.keras.models import load_model
-model = load_model("model.keras")
 
 ---
 
