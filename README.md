@@ -17,13 +17,13 @@ An AI model that predicts the **next word** in a sentence using a word-level LST
 * 📉 **Loss graphs** included for visualizing training performance.
   ![image](https://github.com/user-attachments/assets/1e218046-db1d-49f0-afda-acdeda50d580)
 
-* 💾 Manual selection and saving of the most efficient model based on results as "model.keras".
+* 💾 **Demo** predicts the next word based on custom input.
+  <img width="603" height="265" alt="demo11_n15_wholesent" src="https://github.com/user-attachments/assets/9120f5d9-c356-4c95-928f-f120be1b0f88" />
+  <img width="796" height="424" alt="demo12_n15_wholesent" src="https://github.com/user-attachments/assets/59827694-cc01-4fc2-9015-9190ceeed863" />
+  <img width="707" height="405" alt="demo14_n15_wholesent" src="https://github.com/user-attachments/assets/09050e9a-30b4-4807-b49c-f81382ff35ff" />
 
-⚠️ **Restrictions**:
-
-* Requires **at least 7 words** in the input sentence for prediction.
-
-> *(Images and visualizations will be added soon)*
+  Note: Sometimes makes predictions that cannot be found in the original dictionary
+  <img width="726" height="538" alt="demo16_n15_wholesent" src="https://github.com/user-attachments/assets/531818c8-3a53-4053-947e-8091590275a3" />
 
 ---
 
